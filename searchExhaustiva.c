@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <time.h>
 
-#define LONGITUD_H 65 // Longitud de la línea horizontal H
+#define LONGITUD_H 75 // Longitud de la línea horizontal H
 
 // Función para simular la verificacion de la superficie
 bool palparSuperficie(int posicion) {
