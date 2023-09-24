@@ -6,7 +6,7 @@
 #define LONGITUD_H 75 // Longitud de la línea horizontal H
 
 // Función para simular la verificacion de la superficie
-bool palparSuperficie(int posicion) {
+bool verificarSuperficie(int posicion) {
     // En la práctica, esta función debería implementar la lógica para verificar si la posición actual es el punto A
     // En este ejemplo, simplemente comparamos con un valor fijo (posicionA)
     srand(time(NULL));
