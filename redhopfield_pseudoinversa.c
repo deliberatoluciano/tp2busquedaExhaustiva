@@ -61,23 +61,23 @@ int main() {
     // 1 representa parte del aro
     int training_patterns[1][N] = { /*... (se mantiene igual) ... */ };
 
-    // Inicializamos los pesos y entrenamos la red
+    // Inicializacion de los pesos y entrenamiento de la red
     initialize_weights();
     train_with_pseudoinverse(training_patterns, 1);
 
-    // Mostramos el patrón de entrenamiento
+    // Moustra el patrón de entrenamiento
     printf("Patrón de entrenamiento:\n");
     display_pattern(training_patterns[0]);
 
-    // Simulamos una imagen de entrada con algo de ruido
+    // Simula una imagen de entrada con algo de ruido
     int input_pattern[N] = { /*... (se mantiene igual) ... */ };
 
-    // Usamos la red para reconocer el patrón
+    // Usa la red para reconcoer el patrón
     int result[N];
     recognize_pattern(input_pattern, result);
 
-    // Mostramos el resultado del reconocimiento
-    printf("\nResultado del reconocimiento:\n");
+    // Muestra el resultado del reconocimiento
+    printf("\nResultado del reconocimiento :\n");
     display_pattern(result);
 
     return 0;
